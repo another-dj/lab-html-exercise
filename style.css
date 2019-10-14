@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    font-family: 'Poppins';
+      }
+
+header > div {
+        padding: 0 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid lightgray;
+      }
+      
+nav {
+        width: 600px;
+      }
+      
+nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+nav a {
+        text-decoration: none;
+        color: black;
+      }
+      
+.blackHeart {
+        width: 20px;
+        margin-right: 1rem;
+      }
+
+.red-button {
+    border: none;
+    background-color: #fb3e44;
+    color: white;
+    font-size: 1em;
+    Letter-Spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}      
+.whity-button {
+    border: none;
+    background-color: white;
+    color: black;
+    
+    Letter-Spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+.white-button {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  Letter-Spacing: 0.5px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.search-bar {
+  height: 4rem;
+}
+.search-bar input {
+  
+  width: 900px;
+  height: 2rem;
+  border: none;
+}
+
+.npm-logo {
+  width: 80px;
+  margin-left: 1rem;
+  
+}
+
+.mag-glass-logo {
+    width: 30px;
+    height: 3rem;
+    
+    
+}
+.input-bar {
+  background-color: rgba(0,0,0,.05);
+}
+
+h1 {
+  font-size: 4.4rem;
+  text-align: center;
+  font-weight: 900;
+  padding: 1.5rem;
+}
+h2 {
+  background-color: cornsilk;
+  font-size: 1.6rem;
+  text-align: center;
+}
+h3 {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.medium-image {
+  width: 200px;
+}
+.section-images {
+    width: 60px;
+    }
+
+#first-section {
+  background-color: cadetblue;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+#first-section article {
+  width: 400px;
+  padding: 0.8rem;
+}
+#first-section div {
+padding: 0 0 5rem 0;
+}
+
+#second-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 4rem;
+}
+#second-section article {
+
+}
