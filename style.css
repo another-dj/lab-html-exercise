@@ -33,27 +33,31 @@ nav a {
         margin-right: 1rem;
       }
 
-.red-button {
+   
+.search-button {
     border: none;
     background-color: #fb3e44;
     color: white;
-    font-size: 1em;
+    font-size: 1.1em;
     Letter-Spacing: 0.5px;
     text-align: center;
     text-decoration: none;
-    padding: 10px;
+    padding: 17px 25px;
+    font-weight: 400;
+    
+
 }      
-.whity-button {
+.log-button {
     border: none;
     background-color: white;
     color: black;
-    
+    font-weight: 900;
     Letter-Spacing: 0.5px;
     text-align: center;
     text-decoration: none;
     padding: 10px;
 }
-.white-button {
+.join-button {
   background-color: white;
   color: black;
   text-decoration: none;
@@ -61,16 +65,27 @@ nav a {
   text-align: center;
   border: 1px solid black;
   padding: 10px;
+  font-weight: 900;
 }
-
+.small {
+  padding: 10px 20px;
+}
+.big {
+  padding: 20px 70px;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 23px;
+}
 .search-bar {
   height: 4rem;
 }
 .search-bar input {
-  
-  width: 900px;
+  padding: 10px 10px 10px 50px;
+  width: 1470px;
   height: 2rem;
   border: none;
+  margin: 10px;
+  background-color: #F4F2FC ;
 }
 
 .npm-logo {
@@ -81,39 +96,42 @@ nav a {
 
 .mag-glass-logo {
     width: 30px;
-    height: 3rem;
-    
-    
-}
-.input-bar {
-  background-color: rgba(0,0,0,.05);
+    background-color: #F4F2FC;
+    position: absolute;
+    margin: 20px;
 }
 
 h1 {
-  font-size: 4.4rem;
+  font-size: 100px;
   text-align: center;
   font-weight: 900;
-  padding: 1.5rem;
+  padding: 80px 80px 0 80px;
+  margin-bottom: 0;
 }
 h2 {
+  transform: skew(9deg,0deg);
+  font-style: italic;
   background-color: cornsilk;
-  font-size: 1.6rem;
+  font-size: 50px;
   text-align: center;
+  padding: 3px 40px;
 }
 h3 {
-  font-size: 1.4rem;
-  text-align: center;
+  font-size: 22px;
+  text-align: left;
+  color: red;
 }
 
 .medium-image {
-  width: 200px;
+  width: 380px;
+  margin-bottom: 70px;
 }
 .section-images {
     width: 60px;
     }
 
 #first-section {
-  background-color: cadetblue;
+  background-color: #FDF2FF;
   text-align: center;
   display: flex;
   align-items: center;
@@ -121,11 +139,26 @@ h3 {
   padding: 1.5rem;
 }
 #first-section article {
-  width: 400px;
+  width: 670px;
   padding: 0.8rem;
+  margin: 15px 15px 30px 15px;
+  font-size: 25px;
 }
 #first-section div {
 padding: 0 0 5rem 0;
+}
+
+.plans-button {
+  border: none;
+  background-color: #fb3e44;
+  color: white;
+  font-weight: 900;
+}
+.joinfree-button {
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: 900;
 }
 
 #second-section {
@@ -134,7 +167,35 @@ padding: 0 0 5rem 0;
   flex-direction: column;
   text-align: center;
   padding: 4rem;
+  margin-bottom: 165px;
 }
 #second-section article {
+width: 1000px;
+font-size: 22px;
+}
 
+#third-section p {
+  text-align: left;
+  width: 350px;
+  font-size: 23px;
+  margin-right: 50px;
+}
+
+#third-section {
+  display: flex;
+  justify-content: center;
+}
+.final-section {
+    display: flex;
+    justify-content: center;
+    margin: 100px; 
+}
+.final-section button {
+    font-weight: 900;
+    background-color: black;
+    color: white;
+    width: 500px;
+    font-size: 22px;
+    height: 77px;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
 }
